@@ -1,6 +1,6 @@
 :root{
-    --primary-color:#702A8C;
-    --secundary-color:#fff;
+    --primary-color:#009688;
+    --secundary-color:#C8E6C9;
 }
 
 body{
@@ -44,7 +44,7 @@ body{
     align-items: center;
 
     margin: 0 40px;
-    background-color: #f7eefa;
+    background-color: var(--secundary-color);
     border-bottom-left-radius: 16px;
     border-bottom-right-radius: 16px;
     
@@ -99,7 +99,7 @@ NAV
  
 .welcome{
     grid-area: welcome;
-    background: #f7eefa;
+    background: var(--secundary-color);
 
     padding: 0 20px;
 
